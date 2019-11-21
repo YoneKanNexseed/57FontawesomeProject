@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CA55699238652B000B061ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA55698238652B000B061ED /* AppDelegate.swift */; };
+		0CA5569B238652B000B061ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA5569A238652B000B061ED /* SceneDelegate.swift */; };
+		0CA5569D238652B000B061ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA5569C238652B000B061ED /* ViewController.swift */; };
+		0CA556A0238652B000B061ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA5569E238652B000B061ED /* Main.storyboard */; };
+		0CA556A2238652B200B061ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA556A1238652B200B061ED /* Assets.xcassets */; };
+		0CA556A5238652B200B061ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA556A3238652B200B061ED /* LaunchScreen.storyboard */; };
+		7E5FA0DFD72F6BEFC888C9A4 /* Pods_FontAwesomeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967339096FF2B3B72CA8786E /* Pods_FontAwesomeProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CA55695238652B000B061ED /* FontAwesomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAwesomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA55698238652B000B061ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CA5569A238652B000B061ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0CA5569C238652B000B061ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CA5569F238652B000B061ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CA556A1238652B200B061ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CA556A4238652B200B061ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CA556A6238652B200B061ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967339096FF2B3B72CA8786E /* Pods_FontAwesomeProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FontAwesomeProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADE8F0109A2462F8EFD8F06 /* Pods-FontAwesomeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeProject.release.xcconfig"; path = "Target Support Files/Pods-FontAwesomeProject/Pods-FontAwesomeProject.release.xcconfig"; sourceTree = "<group>"; };
+		F0214E1870B44859B5C3BEFC /* Pods-FontAwesomeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAwesomeProject.debug.xcconfig"; path = "Target Support Files/Pods-FontAwesomeProject/Pods-FontAwesomeProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CA55692238652B000B061ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5FA0DFD72F6BEFC888C9A4 /* Pods_FontAwesomeProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09A4F97367D5AA5A8D8CFB6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0214E1870B44859B5C3BEFC /* Pods-FontAwesomeProject.debug.xcconfig */,
+				CADE8F0109A2462F8EFD8F06 /* Pods-FontAwesomeProject.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0CA5568C238652B000B061ED = {
+			isa = PBXGroup;
+			children = (
+				0CA55697238652B000B061ED /* FontAwesomeProject */,
+				0CA55696238652B000B061ED /* Products */,
+				09A4F97367D5AA5A8D8CFB6D /* Pods */,
+				6AD4F16B051A764BE5F432F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0CA55696238652B000B061ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CA55695238652B000B061ED /* FontAwesomeProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CA55697238652B000B061ED /* FontAwesomeProject */ = {
+			isa = PBXGroup;
+			children = (
+				0CA55698238652B000B061ED /* AppDelegate.swift */,
+				0CA5569A238652B000B061ED /* SceneDelegate.swift */,
+				0CA5569C238652B000B061ED /* ViewController.swift */,
+				0CA5569E238652B000B061ED /* Main.storyboard */,
+				0CA556A1238652B200B061ED /* Assets.xcassets */,
+				0CA556A3238652B200B061ED /* LaunchScreen.storyboard */,
+				0CA556A6238652B200B061ED /* Info.plist */,
+			);
+			path = FontAwesomeProject;
+			sourceTree = "<group>";
+		};
+		6AD4F16B051A764BE5F432F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				967339096FF2B3B72CA8786E /* Pods_FontAwesomeProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CA55694238652B000B061ED /* FontAwesomeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA556A9238652B200B061ED /* Build configuration list for PBXNativeTarget "FontAwesomeProject" */;
+			buildPhases = (
+				04EDA3B37EDC0239DE7523C1 /* [CP] Check Pods Manifest.lock */,
+				0CA55691238652B000B061ED /* Sources */,
+				0CA55692238652B000B061ED /* Frameworks */,
+				0CA55693238652B000B061ED /* Resources */,
+				D316B3A990F8FC3DCC8E75B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesomeProject;
+			productName = FontAwesomeProject;
+			productReference = 0CA55695238652B000B061ED /* FontAwesomeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CA5568D238652B000B061ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = yonekan;
+				TargetAttributes = {
+					0CA55694238652B000B061ED = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 0CA55690238652B000B061ED /* Build configuration list for PBXProject "FontAwesomeProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CA5568C238652B000B061ED;
+			productRefGroup = 0CA55696238652B000B061ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CA55694238652B000B061ED /* FontAwesomeProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CA55693238652B000B061ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA556A5238652B200B061ED /* LaunchScreen.storyboard in Resources */,
+				0CA556A2238652B200B061ED /* Assets.xcassets in Resources */,
+				0CA556A0238652B000B061ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04EDA3B37EDC0239DE7523C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FontAwesomeProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D316B3A990F8FC3DCC8E75B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FontAwesomeProject/Pods-FontAwesomeProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FontAwesomeProject/Pods-FontAwesomeProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FontAwesomeProject/Pods-FontAwesomeProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CA55691238652B000B061ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA5569D238652B000B061ED /* ViewController.swift in Sources */,
+				0CA55699238652B000B061ED /* AppDelegate.swift in Sources */,
+				0CA5569B238652B000B061ED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0CA5569E238652B000B061ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CA5569F238652B000B061ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CA556A3238652B200B061ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CA556A4238652B200B061ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CA556A7238652B200B061ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CA556A8238652B200B061ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CA556AA238652B200B061ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0214E1870B44859B5C3BEFC /* Pods-FontAwesomeProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DB4CQZK65;
+				INFOPLIST_FILE = FontAwesomeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FontAwesomeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CA556AB238652B200B061ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CADE8F0109A2462F8EFD8F06 /* Pods-FontAwesomeProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DB4CQZK65;
+				INFOPLIST_FILE = FontAwesomeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FontAwesomeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CA55690238652B000B061ED /* Build configuration list for PBXProject "FontAwesomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA556A7238652B200B061ED /* Debug */,
+				0CA556A8238652B200B061ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CA556A9238652B200B061ED /* Build configuration list for PBXNativeTarget "FontAwesomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA556AA238652B200B061ED /* Debug */,
+				0CA556AB238652B200B061ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CA5568D238652B000B061ED /* Project object */;
+}
